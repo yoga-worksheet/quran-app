@@ -1,7 +1,13 @@
+import { Container } from "@chakra-ui/react";
 import React from "react";
+import Hero from "../../components/home/Hero";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <Container maxW={"1920px"}>
+      <Hero />
+    </Container>
+  );
 };
 
 export default Home;

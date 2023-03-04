@@ -1,13 +1,14 @@
 import React from "react";
 import Navbar from "./navbar";
 import { Outlet } from "react-router-dom";
+import { Container } from "@chakra-ui/react";
 
 const Layout = () => {
   return (
-    <div>
+    <Container maxW="full" p="0">
       <Navbar />
       <Outlet />
-    </div>
+    </Container>
   );
 };
 
