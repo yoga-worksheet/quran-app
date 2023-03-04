@@ -1,0 +1,13 @@
+@import "../../styles/variable.scss";
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 2rem;
+}
+
+.navbar-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
